@@ -20,3 +20,5 @@ import org.openqa.selenium.Keys as Keys
 
 //Variables
 String id = GlobalVariable.id
+
+//new stuff to create account 
