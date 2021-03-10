@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test sign in from a previously created account. Expect that we will start from Ride App Landing page</description>
+   <name>Sign In - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>300592fc-d7f1-470e-a3b6-ab365950a747</testCaseGuid>
+</TestCaseEntity>

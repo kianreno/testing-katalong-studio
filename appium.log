@@ -1,0 +1,418 @@
+[35m[Appium][39m Welcome to Appium v1.20.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 53881
+[35m[Appium][39m   tmpDir: /var/folders/_3/mlqnq6494ld_6qyrb5bwl5018fkfyp/T//Katalon/Appium/Temp1615316128252
+[35m[Appium][39m   chromedriverPort: 53882
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 53882
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53881
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.20.2"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.20.2"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"AutomationName":"XCUITest","bundleId":"com.specialized.ride-iOS","deviceId":"","deviceName":"iPhone xr","wdaLocalPort":53892,"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.5.1","automationName":"XCUITest","useNewWDA":"true","waitForAppScript":"true;","platformName":"iOS","udid":"00008020-001578C92232002E"},"capabilities":{"firstMatch":[{"AutomationName":"XCUITest","appium:automationName":"XCUITest","appium:bundleId":"com.specialized.ride-iOS","deviceId":"","appium:deviceName":"iPhone xr","appium:newCommandTimeout":1800,"platformName":"ios","appium:platformVersion":"13.5.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"00008020-001578C92232002E","appium:useNewWDA":"true","appium:waitForAppScript":"true;","appium:wdaLocalPort":53892}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"AutomationName":"XCUITest","bundleId":"com.specialized.ride-iOS","deviceId":"","deviceName":"iPhone xr","wdaLocalPort":53892,"newCommandTimeout":1800,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"13.5.1","automationName":"XCUITest","useNewWDA":"true","waitForAppScript":"true;","platformName":"iOS","udid":"00008020-001578C92232002E"},null,{"firstMatch":[{"AutomationName":"XCUITest","appium:automationName":"XCUITest","appium:bundleId":"com.specialized.ride-iOS","deviceId":"","appium:deviceName":"iPhone xr","appium:newCommandTimeout":1800,"platformName":"ios","appium:platformVersion":"13.5.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"00008020-001578C92232002E","appium:useNewWDA":"true","appium:waitForAppScript":"true;","appium:wdaLocalPort":53892}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1615316130705 (11:55:30 GMT-0700 (Mountain Standard Time))
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   AutomationName
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.20.2 creating new XCUITestDriver (v3.33.1) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "appium:AutomationName": "XCUITest",
+[debug] [35m[BaseDriver][39m     "appium:deviceId": "",
+[debug] [35m[BaseDriver][39m     "platformName": "ios",
+[debug] [35m[BaseDriver][39m     "appium:realDeviceLogger": "/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole",
+[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 53882,
+[debug] [35m[BaseDriver][39m     "appium:automationName": "XCUITest",
+[debug] [35m[BaseDriver][39m     "appium:bundleId": "com.specialized.ride-iOS",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "iPhone xr",
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 1800,
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "13.5.1",
+[debug] [35m[BaseDriver][39m     "appium:udid": "00008020-001578C92232002E",
+[debug] [35m[BaseDriver][39m     "appium:useNewWDA": "true",
+[debug] [35m[BaseDriver][39m     "appium:waitForAppScript": "true;",
+[debug] [35m[BaseDriver][39m     "appium:wdaLocalPort": 53892
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Capability 'useNewWDA' changed from string to boolean. This may cause unexpected behavior
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   AutomationName
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: 44e75135-1e97-4b4f-8619-ccd87519027f
+[debug] [35m[XCUITest][39m Current user: 'kreno'
+[debug] [35m[XCUITest][39m Available devices: 00008020-001578C92232002E
+[debug] [35m[XCUITest][39m Creating iDevice object with udid '00008020-001578C92232002E'
+[35m[XCUITest][39m Determining device to run tests on: udid: '00008020-001578C92232002E', real device: true
+[35m[XCUITest][39m Normalized platformVersion capability value '13.5.1' to '13.5'
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1615316131389 (11:55:31 GMT-0700 (Mountain Standard Time))
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1615316131390 (11:55:31 GMT-0700 (Mountain Standard Time))
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1615316131390 (11:55:31 GMT-0700 (Mountain Standard Time))
+[debug] [35m[XCUITest][39m Reset: running ios real device reset flow
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1615316131391 (11:55:31 GMT-0700 (Mountain Standard Time))
+[35m[WebDriverAgent][39m Using WDA path: '/usr/local/npm_packages/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/usr/local/npm_packages/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[XCUITest][39m Crash reports root '/Users/kreno/Library/Logs/CrashReporter/MobileDevice/iPhone xr' does not exist. Got nothing to gather.
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1615316131659 (11:55:31 GMT-0700 (Mountain Standard Time))
+[35m[XCUITest][39m Setting up real device
+[debug] [35m[WebDriverAgent][39m No obsolete cached processes from previous WDA sessions listening on port 53892 have been found
+[35m[DevCon Factory][39m Requesting connection for device 00008020-001578C92232002E on local port 53892, device port 53892
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[35m[DevCon Factory][39m Successfully requested the connection for 00008020-001578C92232002E:53892
+[debug] [35m[XCUITest][39m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [35m[XCUITest][39m Capability 'useNewWDA' set to true, so uninstalling WDA before proceeding
+[35m[WebDriverAgent][39m Shutting down sub-processes
+[debug] [35m[WebDriverAgent][39m Uninstalling WDAs: 'com.renokian.WebDriverAgentRunner.xctrunner'
+[debug] [35m[BaseDriver][39m Event 'wdaUninstalled' logged at 1615316132973 (11:55:32 GMT-0700 (Mountain Standard Time))
+[debug] [35m[XCUITest][39m Trying to start WebDriverAgent 1 times with 10000ms interval
+[debug] [35m[XCUITest][39m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [35m[BaseDriver][39m Event 'wdaStartAttempted' logged at 1615316132974 (11:55:32 GMT-0700 (Mountain Standard Time))
+[35m[WebDriverAgent][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m WebDriverAgent does not need a cleanup. The sources are up to date (499162500000 >= 499162500000)
+[debug] [35m[WebDriverAgent][39m Killing running processes 'xcodebuild.*00008020-001578C92232002E' for the device 00008020-001578C92232002E...
+[debug] [35m[WebDriverAgent][39m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/npm_packages/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=00008020-001578C92232002E IPHONEOS_DEPLOYMENT_TARGET=13.5 GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/usr/local/npm_packages/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[debug] [35m[WebDriverAgent][39m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [35m[WebDriverAgent][39m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53892/status] with no body
+[debug] [35m[iProxy@00008020:53892][39m Connection was refused to port 53892
+[35m[WD Proxy][39m socket hang up
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/kreno/Library/Developer/Xcode/DerivedData/WebDriverAgent-fdifadyymiyafqdchymmnmrsjjlc/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/kreno/Library/Developer/Xcode/DerivedData/WebDriverAgent-fdifadyymiyafqdchymmnmrsjjlc'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53892/status] with no body
+[debug] [35m[iProxy@00008020:53892][39m Connection was refused to port 53892
+[35m[WD Proxy][39m socket hang up
+[debug] [35m[WebDriverAgent][39m Log file for xcodebuild test: /Users/kreno/Library/Developer/Xcode/DerivedData/WebDriverAgent-fdifadyymiyafqdchymmnmrsjjlc/Logs/Test/Test-WebDriverAgentRunner-2021.03.09_11-55-35--0700.xcresult/Staging/2_Test/Diagnostics/WebDriverAgentRunner-23C339D5-0DC2-4613-B486-10BB597692B2/WebDriverAgentRunner-98C1D02F-DB08-446F-80C8-4DBB44BBF59B/Session-WebDriverAgentRunner-2021-03-09_115535-eD7LiQ.log
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53892/status] with no body
+[debug] [35m[iProxy@00008020:53892][39m Connection was refused to port 53892
+[35m[WD Proxy][39m socket hang up
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53892/status] with no body
+[debug] [35m[iProxy@00008020:53892][39m Connection was refused to port 53892
+[35m[WD Proxy][39m socket hang up
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53892/status] with no body
+[debug] [35m[iProxy@00008020:53892][39m Connection was refused to port 53892
+[35m[WD Proxy][39m socket hang up
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53892/status] with no body
+[debug] [35m[iProxy@00008020:53892][39m Connection was refused to port 53892
+[35m[WD Proxy][39m socket hang up
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:53892/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"14.2","version":"13.5.1"},"ios":{"ip":"192.168.1.137"},"ready":true,"build":{"upgradedAt":"499162500000","time":"Mar  8 2021 16:48:02","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [35m[WebDriverAgent][39m WebDriverAgent information:
+[debug] [35m[WebDriverAgent][39m {
+[debug] [35m[WebDriverAgent][39m   "message": "WebDriverAgent is ready to accept commands",
+[debug] [35m[WebDriverAgent][39m   "state": "success",
+[debug] [35m[WebDriverAgent][39m   "os": {
+[debug] [35m[WebDriverAgent][39m     "testmanagerdVersion": 28,
+[debug] [35m[WebDriverAgent][39m     "name": "iOS",
+[debug] [35m[WebDriverAgent][39m     "sdkVersion": "14.2",
+[debug] [35m[WebDriverAgent][39m     "version": "13.5.1"
+[debug] [35m[WebDriverAgent][39m   },
+[debug] [35m[WebDriverAgent][39m   "ios": {
+[debug] [35m[WebDriverAgent][39m     "ip": "192.168.1.137"
+[debug] [35m[WebDriverAgent][39m   },
+[debug] [35m[WebDriverAgent][39m   "ready": true,
+[debug] [35m[WebDriverAgent][39m   "build": {
+[debug] [35m[WebDriverAgent][39m     "upgradedAt": "499162500000",
+[debug] [35m[WebDriverAgent][39m     "time": "Mar  8 2021 16:48:02",
+[debug] [35m[WebDriverAgent][39m     "productBundleIdentifier": "com.facebook.WebDriverAgentRunner"
+[debug] [35m[WebDriverAgent][39m   }
+[debug] [35m[WebDriverAgent][39m }
+[debug] [35m[WebDriverAgent][39m WebDriverAgent successfully started after 7033ms
+[debug] [35m[BaseDriver][39m Event 'wdaSessionAttempted' logged at 1615316140364 (11:55:40 GMT-0700 (Mountain Standard Time))
+[debug] [35m[XCUITest][39m Sending createSession command to WDA
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:53892/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.specialized.ride-iOS","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}],"alwaysMatch":{}}}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72","capabilities":{"device":"iphone","browserName":"Ride","sdkVersion":"13.5.1","CFBundleIdentifier":"com.specialized.ride-iOS"}},"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[debug] [35m[BaseDriver][39m Event 'wdaSessionStarted' logged at 1615316143456 (11:55:43 GMT-0700 (Mountain Standard Time))
+[debug] [35m[BaseDriver][39m Event 'wdaStarted' logged at 1615316143456 (11:55:43 GMT-0700 (Mountain Standard Time))
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [35m[BaseDriver][39m Event 'orientationSet' logged at 1615316143457 (11:55:43 GMT-0700 (Mountain Standard Time))
+[debug] [35m[BaseDriver][39m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[debug] [35m[BaseDriver][39m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+[35m[Appium][39m New XCUITestDriver session created successfully, session 44e75135-1e97-4b4f-8619-ccd87519027f added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1615316143458 (11:55:43 GMT-0700 (Mountain Standard Time))
+[debug] [35m[W3C (44e75135)][39m Cached the protocol value 'W3C' for the new session 44e75135-1e97-4b4f-8619-ccd87519027f
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","AutomationName":"XCUITest","deviceId":"","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","chromedriverPort":53882,"automationName":"XCUITest","bundleId":"com.specialized.ride-iOS","deviceName":"iPhone xr","newCommandTimeout":1800,"platformVersion":"13.5.1","udid":"00008020-001578C92232002E","useNewWDA":true,"waitForAppScript":"true;","wdaLocalPort":53892}}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m12756 ms - 721[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.getSession() with args: ["44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'getSession'
+[debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
+[debug] [35m[WD Proxy][39m Proxying [GET /] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72","capabilities":{"device":"iphone","browserName":"Ride","sdkVersion":"13.5.1","CFBundleIdentifier":"com.specialized.ride-iOS"}},"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72"}
+[debug] [35m[WD Proxy][39m Proxying [GET /wda/screen] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/wda/screen] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"statusBarSize":{"width":414,"height":44},"scale":2},"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72"}
+[debug] [35m[WD Proxy][39m Proxying [GET /window/size] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/window/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"width":414,"height":896},"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72"}
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.getSession() result: {"udid":"00008020-001578C92232002E","platformName":"ios","AutomationName":"XCUITest","deviceId":"","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","chromedriverPort":53882,"automationName":"XCUITest","bundleId":"com.specialized.ride-iOS","deviceName":"iPhone xr","newCommandTimeout":1800,"platformVersion":"13.5.1","useNewWDA":true,"waitForAppScript":"true;","wdaLocalPort":53892,"device":"iphone","browserName":"Ride","sdkVersion":"13.5.1","CFBundleIdentifier":"com.specialized.ride-iOS","pixelRatio":2,"statBarHeight":44,"viewportRect":{"left":0,"top":88,"width":828,"height":1704}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f [39m[32m200[39m [90m431 ms - 661[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.getSession() with args: ["44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'getSession'
+[35m[XCUITest][39m Merging WDA caps over Appium caps for session detail response
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.getSession() result: {"udid":"00008020-001578C92232002E","platformName":"ios","AutomationName":"XCUITest","deviceId":"","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","chromedriverPort":53882,"automationName":"XCUITest","bundleId":"com.specialized.ride-iOS","deviceName":"iPhone xr","newCommandTimeout":1800,"platformVersion":"13.5.1","useNewWDA":true,"waitForAppScript":"true;","wdaLocalPort":53892,"device":"iphone","browserName":"Ride","sdkVersion":"13.5.1","CFBundleIdentifier":"com.specialized.ride-iOS","pixelRatio":2,"statBarHeight":44,"viewportRect":{"left":0,"top":88,"width":828,"height":1704}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f [39m[32m200[39m [90m2 ms - 661[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.20.2"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'timeouts'
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":60000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 60000ms
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.getScreenshot() with args: ["44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAA7GKI+KTcQAAQABJREFUeAHsnQecVcXZ/8/23gttafZC\r\nB0UsYNeosYH0sn0pgmy5d3fBJCb5+5qYvOnR15j4xuRNeVM0lpjYCyoqbZcmnQWW\r\nIpYkRqXtcv/fZ567h8sCCr4JCjznMwxz5szMmfPde+b+7jPN8+wwAkbACBgBI2AE\r\njIARMAJGwAgYASNgBIyAETACRsAIGAEjYASMgBEwAkbACBgBI2AEjIARMAJGwAgY\r\nASNgBIyAETACRsAIGAEjYASMgBEwAkbACBgBI2AEjIARMAJGwAgYASNgBIyAETAC\r\nRsAIGAEjYASMgBEwAkbACBgBI2AEjIARMAJGwAgYASNgBIyAETACRsAIGAEjYASM\r\ngBEwAkbACBgBI2AEjIARMAJGwAgYASNgBIyAETACRsAIGAEjYASMgBEwAkbACBgB\r\nI2AEjIARMAJGwAgYASNgBIyAETACRsAIGAEjYASMgBEwAkbACBgBI2AEjIARMALH\r\nEIGoKM/DRePHxnherIRiPS/Bi07Bj/e8RM/Dj4v2ouISvagETd72gCTez0W5IzpK\r\nigyn9EOHF9DbRUmxCdxOfKkPRbqD6Jho5wi4m8tVSaDXiVPn0kd70TxQnPiuBP7b\r\nV7N29eEO4lxJB/UlPRQoI845Se3fyy9MypdDksV4sfwXjqBMh4UYHBm9aB6EoB1G\r\nwAgYASNgBIyAETgMAiIpVHGEJQhaBCUhuiQqOj6u7UREhigaIlxy0Xoa4wR...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAA7GKI+KTcQAAQABJREFUeAHsnQecVcXZ/8/23gttafZC\r\nB0UsYNeosYH0sn0pgmy5d3fBJCb5+5qYvOnR15j4xuRNeVM0lpjYCyoqbZcmnQWW\r\nIpYkRqXtcv/fZ567h8sCCr4JCjznMwxz5szMmfPde+b+7jPN8+wwAkbACBgBI2AE\r\njIARMAJGwAgYASNgBIyAETACRsAIGAEjYASMgBEwAkbACBgBI2AEjIARMAJGwAgY\r\nASNgBIyAETACRsAIGAEjYASMgBEwAkbACBgBI2AEjIARMAJGwAgYASNgBIyAETAC\r\nRsAIGAEjYASMgBEwAkbACBgBI2AEjIARMAJGwAgYASNgBIyAETACRsAIGAEjYASM\r\ngBEwAkbACBgBI2AEjIARMAJGwAgYASNgBIyAETACRsAIGAEjYASMgBEwAkbACBgB\r\nI2AEjIARMAJGwAgYASNgBIyAETACRsAIGAEjYASMgBEwAkbACBgBI2AEjIARMALH\r\nEIGoKM/DRePHxnherIRiPS/Bi07Bj/e8RM/Dj4v2ouISvagETd72gCTez0W5IzpK\r\nigyn9EOHF9DbRUmxCdxOfKkPRbqD6Jho5wi4m8tVSaDXiVPn0kd70TxQnPiuBP7b\r\nV7N29eEO4lxJB/UlPRQoI845Se3fyy9MypdDksV4sfwXjqBMh4UYHBm9aB6EoB1G\r\nwAgYASNgBIyAETgMAiIpVHGEJQhaBCUhuiQqOj6u7UREhigaIlxy0Xoa4wROFNdV\r\n...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot [39m[32m200[39m [90m151 ms - 828684[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.getWindowRect() with args: ["44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'getWindowRect'
+[debug] [35m[WD Proxy][39m Proxying [GET /window/size] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/window/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"width":414,"height":896},"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72"}
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.getWindowRect() result: {"width":414,"height":896,"x":0,"y":0}
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/window/rect [39m[32m200[39m [90m91 ms - 48[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.getScreenshot() with args: ["44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAA5/ia4xzNwAAQABJREFUeAHsvQeUHsWZtv1OVpYmKaOc\r\nc04IJZSQCMoa5clJAUmADSaDMTb2Oq7Ner32Ofbunv3+Xdss2OtsMCjnBBjbZJSz\r\nNEmjNP9V/cyUXo1mhGxAae4+rVZ1pe6+3u6qe55KoZA2ERABERABERABERABERAB\r\nERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERAB\r\nERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERAB\r\nERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERAB\r\nERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERAB\r\nERABERABERABERABERABERABERABERCBMALRoVClPTIUumZ7VCjk94hQiP2irQqv\r\ni8J1IgIiIAIiIAIiIAI3K4Fq9JmTS5GBaLqqRy6LaDNt5m6h0mYBlTx1KgIiIAIi\r\nIAIiIAI1gYBpo+vtWEG+kqas8K4QdhfO5RIBERABERABERCBm5iAma6un2O5ba/a\r\n9tkLP4Xd84VzuURABERABERABERABDyBz1rehSIwrUWHIsL2iwScu5Hwe/A3JocI\r\niIAIiIAIiIAI3NQEUEBsV378e+Jeea4XYiLXTLT5o0TbTf0C6uFEQAREQAR...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAA5/ia4xzNwAAQABJREFUeAHsvQeUHsWZtv1OVpYmKaOc\r\nc04IJZSQCMoa5clJAUmADSaDMTb2Oq7Ner32Ofbunv3+Xdss2OtsMCjnBBjbZJSz\r\nNEmjNP9V/cyUXo1mhGxAae4+rVZ1pe6+3u6qe55KoZA2ERABERABERABERABERAB\r\nERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERAB\r\nERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERAB\r\nERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERAB\r\nERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERAB\r\nERABERABERABERABERABERABERABERCBMALRoVClPTIUumZ7VCjk94hQiP2irQqv\r\ni8J1IgIiIAIiIAIiIAI3K4Fq9JmTS5GBaLqqRy6LaDNt5m6h0mYBlTx1KgIiIAIi\r\nIAIiIAI1gYBpo+vtWEG+kqas8K4QdhfO5RIBERABERABERCBm5iAma6un2O5ba/a\r\n9tkLP4Xd84VzuURABERABERABERABDyBz1rehSIwrUWHIsL2iwScu5Hwe/A3JocI\r\niIAIiIAIiIAI3NQEUEBsV378e+Jeea4XYiLXTLT5o0TbTf0C6uFEQAREQAREQASu\r\n...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot [39m[32m200[39m [90m137 ms - 822544[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: viewportScreenshot","args":[]}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.execute() with args: ["mobile: viewportScreenshot",[],"44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'execute'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAA5TYTnRzTgAAQABJREFUeAHsnQecXlWd9580AoJ0kQUs\r\nrJ2ahN6bBARFekIIIZNMSSGI+tpeLKyKKO6uZa2r666uvu7aWMrapaTNpHcIPX1K\r\nMr2XZN7vub/J8fpkZjK0KXl+93M/d8497Z77fe495zf/U24m480ETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMA...
+[debug] [35m[WD Proxy][39m Proxying [GET /window/size] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/window/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"width":414,"height":896},"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72"}
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.execute() result: "iVBORw0KGgoAAAANSUhEUgAAAzwAAAaoCAYAAABGOd4cAACAAElEQVR4AezBC7CfVXXw/+9aez+/c07CXd4ghGK4g8jFpFARqfI6FbEIclOsgJeOFutYFZUp1kGlSKdjaBVBpR2lYgVBEdQqUxm0oCIgbQneIoIIBAHHQEJIzvk9z95r/bvp/8zwOu8LSkfNOVmfTwacEEIIIYQQQpiHMiGEEEIIIYQwT2VCCCGEEEIIYZ7KhBBCCCGEEMI8lQkhhBBCCCGEeSoTQgghhBBCCPNUJoQQQgghhBDmqUwIIYQQQgghzFOZEEIIIYQQQpinMiGEEEIIIYQwT2VCCCGEEEIIYZ7KhBBCCCGEEMI8lQkhhBBCCCGEeSoTQgghhBBCCPNUJoQQQgghhBDmqUwIIYQQQgghzFOZTYCqIiLUWum6jmEYEBEaEcHdcXdyzpRSUFXcHXcnhBBCCCGEMHdl5rmUErVWGlVlGAZUFTNDRGjcHRGhlIKqYmY0OWdKKYQQQgghhBDmpsw8V2ulSSlhZjTuzix35/HMDFXFzCilEEIIIYQQQpi7MpsAEaHWSpNSwt0REcyMRlVpVJVaK2aGiNC4OyGEEEIIIYS5KbOJEBFyzgzDwC8zM2Z1XUetFXfH3QkhhBBCCCHMXZlNgLujqgzDQM6ZUgqNquLuuDtNzplhGEgp4e6EEEIIIYQQ5rbMPKeqmBnuzotf/GKWLFlCo6o0ZoaqYmY0P/3pT7nmmmtwd1QVMyOEEEIIIYQwN2XmOTOj2WGHHfjkJz+JmdG4O6qKu+PuiAiNqrJs2TJWrVqFmRFCCCGEEEKYuzIbORGhcXd+mapiZqgqZsYsVcXMEBEad2fnnXdGVXF3aq2ICE3OmfF4TEqJWbvtthurVq2iSSlRa0VEcHdEBHdHVTEzVBUzoxER3J0QQpgrRAR3Z1ZKiVorqoqZ0YgI7s7/jYjg7jSqipmhqogI7o6ZoaqYGY2I4O40IoK7IyKICGaGqmJmpJQwM9ydRkRwd0QE...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync [39m[32m200[39m [90m594 ms - 785712[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.specialized.ride-iOS"}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.activateApp() with args: ["com.specialized.ride-iOS",null,null,null,"44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'activateApp'
+[debug] [35m[WD Proxy][39m Proxying [POST /wda/apps/launch] to [POST http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/wda/apps/launch] with body: {"bundleId":"com.specialized.ride-iOS"}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":null,"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72"}
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.activateApp() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/appium/device/activate_app [39m[32m200[39m [90m87 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.execute() with args: ["mobile: source",[{"format":"xml","excludedAttributes":"visible"}],"44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'execute'
+[debug] [35m[WD Proxy][39m Matched '/source?format=xml&excluded_attributes=visible' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /source?format=xml&excluded_attributes=visible] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/source?format=xml&excluded_attributes=visible] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Ride\" label=\"Ride\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n            <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" ...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.execute() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Ride\" label=\"Ride\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n            <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync [39m[32m200[39m [90m872 ms - 6391[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.getScreenshot() with args: ["44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAA5TYTnRzTgAAQABJREFUeAHsnQecXlWd9580AoJ0kQUs\r\nrJ2ahN6bBARFekIIIZNMSSGI+tpeLKyKKO6uZa2r666uvu7aWMrapaTNpHcIPX1K\r\nMr2XZN7vub/J8fpkZjK0KXl+93M/d8497Z77fe495zf/U24m480ETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMA...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAA5TYTnRzTgAAQABJREFUeAHsnQecXlWd9580AoJ0kQUs\r\nrJ2ahN6bBARFekIIIZNMSSGI+tpeLKyKKO6uZa2r666uvu7aWMrapaTNpHcIPX1K\r\nMr2XZN7vub/J8fpkZjK0KXl+93M/d8497Z77fe495zf/U24m480ETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\nTMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAETMAE\r\n...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot [39m[32m200[39m [90m159 ms - 818228[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.execute() with args: ["mobile: source",[{"format":"xml","excludedAttributes":"visible"}],"44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'execute'
+[debug] [35m[WD Proxy][39m Matched '/source?format=xml&excluded_attributes=visible' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /source?format=xml&excluded_attributes=visible] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/source?format=xml&excluded_attributes=visible] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Ride\" label=\"Ride\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\"/>\n          <XCUIElementTypeImage type=\"XCUIElementTypeImage\" enabled=\"true\" x=\"102\" y=\"52\" width=\"210\" height=\"47\"...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.execute() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Ride\" label=\"Ride\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\"/>\n          <XCUIElementTypeImage type=\"XCUIElementTypeImage\" enabled=\"true\" x=\"102\" y=\"52\" width=\"210\" height=\"47\" index=\"...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync [39m[32m200[39m [90m442 ms - 4194[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.getScreenshot() with args: ["44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AADciVWolxMQAAQABJREFUeAHsvQdwHFeWrqmN3femp9Xd\r\n8oYSKYmk6D3oQAOSIAiCAAmC3nvvCVp4X95XoXwVCh4gQe89CVJerZa6e2Zn583E\r\nRsx7ERsbsbHvbcTO7r7pmZG0f+apOrjIMiiAttWK+CPj5M2bWUkQUn38zz3nvpQy\r\nbcKkGRMnp6VMnT0pdc7k6XOnzsiYMnPe1Fnzp81ZMGNuTlrGwlkkxPLpnLk5szOy\r\nZ2cuTJ+/aE5WbnrO4jmLlsxdvCQjb+m8pcszl6/MWrV2wZr1OWs3Llq3KXfjpiWb\r\ntyzbtn3lzl1r9u7bcPDQliNHdxw7vutkwd6jx3YeOLBlx441q9YszFk0O212ysTJ\r\nw0eOHjhw8Lvv9X/t7Xd//fobL7/y6i9eefWX0G9ekfTqKy8r9NarvxT0qzdfeZn0\r\nxm9+Cb35yl9Leu2Xsn7x5mu/ePv1v37z1b9689X/8Pbrf/X2q//Tay+/9OavXhrw\r\n1i+GDXht/ND30iYNyUlPWZU7a+ua7L1blh7csfLQthXHdq89uW9DyeGtmuJDDk1x\r\nyKFpD1jPNXsutQeungleO1t39VzdlbPBy2d8lzq8V854rp71XjnrvdThPt/maAsZ\r\n6j01PnuZw1igrz5UVbynvGBnydGtxUe21BTvtWlPnm6xXzrru3I+0NHqqPdrPY4K\r\nh6nUois0aE8adQVGfTGk05dAen2Z0VihM1ZqDRUafblKW1qpKa1Ql5SriqE...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AADciVWolxMQAAQABJREFUeAHsvQdwHFeWrqmN3femp9Xd\r\n8oYSKYmk6D3oQAOSIAiCAAmC3nvvCVp4X95XoXwVCh4gQe89CVJerZa6e2Zn583E\r\nRsx7ERsbsbHvbcTO7r7pmZG0f+apOrjIMiiAttWK+CPj5M2bWUkQUn38zz3nvpQy\r\nbcKkGRMnp6VMnT0pdc7k6XOnzsiYMnPe1Fnzp81ZMGNuTlrGwlkkxPLpnLk5szOy\r\nZ2cuTJ+/aE5WbnrO4jmLlsxdvCQjb+m8pcszl6/MWrV2wZr1OWs3Llq3KXfjpiWb\r\ntyzbtn3lzl1r9u7bcPDQliNHdxw7vutkwd6jx3YeOLBlx441q9YszFk0O212ysTJ\r\nw0eOHjhw8Lvv9X/t7Xd//fobL7/y6i9eefWX0G9ekfTqKy8r9NarvxT0qzdfeZn0\r\nxm9+Cb35yl9Leu2Xsn7x5mu/ePv1v37z1b9689X/8Pbrf/X2q//Tay+/9OavXhrw\r\n1i+GDXht/ND30iYNyUlPWZU7a+ua7L1blh7csfLQthXHdq89uW9DyeGtmuJDDk1x\r\nyKFpD1jPNXsutQeungleO1t39VzdlbPBy2d8lzq8V854rp71XjnrvdThPt/maAsZ\r\n6j01PnuZw1igrz5UVbynvGBnydGtxUe21BTvtWlPnm6xXzrru3I+0NHqqPdrPY4K\r\nh6nUois0aE8adQVGfTGk05dAen2Z0VihM1ZqDRUafblKW1qpKa1Ql5SriqEyVSkL\r\n...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot [39m[32m200[39m [90m253 ms - 2269484[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.execute() with args: ["mobile: source",[{"format":"xml","excludedAttributes":"visible"}],"44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'execute'
+[debug] [35m[WD Proxy][39m Matched '/source?format=xml&excluded_attributes=visible' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /source?format=xml&excluded_attributes=visible] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/source?format=xml&excluded_attributes=visible] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Ride\" label=\"Ride\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\"/>\n    </XCUIElementTypeOther>\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"1\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeNavigationBar type=\"XCUIElementTypeNavigationBar\" name=\"SIGN IN\" enabled=\"t...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.execute() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Ride\" label=\"Ride\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\"/>\n    </XCUIElementTypeOther>\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"1\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeNavigationBar type=\"XCUIElementTypeNavigationBar\" name=\"SIGN IN\" enabled=\"true\" x=\...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync [39m[32m200[39m [90m610 ms - 17586[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.getScreenshot() with args: ["44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAAP6vHUGqpQAAQABJREFUeAHsnQe8FsW5/1/gHA6HoqKi\r\nxo5dehUsgGJDsNB7O51zAKM3ahIbdr0aa2K8JtHEeE1iYu+9ayz0KnbTTDXJzf9e\r\nE+v/u/uDJ+t7KggJ5Tefl2V25plnZr/vvju/MzO7m8s5mIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIA...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAAP6vHUGqpQAAQABJREFUeAHsnQe8FsW5/1/gHA6HoqKi\r\nxo5dehUsgGJDsNB7O51zAKM3ahIbdr0aa2K8JtHEeE1iYu+9ayz0KnbTTDXJzf9e\r\nE+v/u/uDJ+t7KggJ5Tefl2V25plnZr/vvju/MzO7m8s5mIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\nmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJmIAJ\r\n...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot [39m[32m200[39m [90m75 ms - 280656[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.execute() with args: ["mobile: source",[{"format":"xml","excludedAttributes":"visible"}],"44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'execute'
+[debug] [35m[WD Proxy][39m Matched '/source?format=xml&excluded_attributes=visible' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /source?format=xml&excluded_attributes=visible] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/source?format=xml&excluded_attributes=visible] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Ride\" label=\"Ride\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\"/>\n    </XCUIElementTypeOther>\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"1\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeNavigationBar type=\"XCUIElementTypeNavigationBar\" name=\"SIGN IN\" enabled=\"t...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.execute() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Ride\" label=\"Ride\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\"/>\n    </XCUIElementTypeOther>\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"1\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeNavigationBar type=\"XCUIElementTypeNavigationBar\" name=\"SIGN IN\" enabled=\"true\" x=\...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync [39m[32m200[39m [90m2108 ms - 17586[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.getScreenshot() with args: ["44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAAQDwbWhAxAAAQABJREFUeAHsnQe8HUXd/k9ubr83hY70\r\ngLT0SkJJQkILCSW9t9tLivAXUOlVeEWKKPKigiAvCgoondC7lJSbCgHBLlYEG0r9\r\nf2efZFzOrQmJpjzzOdnMzvzmN7Pfs2fnuTO7s5mMgwmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAm...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAAQDwbWhAxAAAQABJREFUeAHsnQe8HUXd/k9ubr83hY70\r\ngLT0SkJJQkILCSW9t9tLivAXUOlVeEWKKPKigiAvCgoondC7lJSbCgHBLlYEG0r9\r\nf2efZFzOrQmJpjzzOdnMzvzmN7Pfs2fnuTO7s5mMgwmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\ngAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmYgAmY\r\n...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot [39m[32m200[39m [90m106 ms - 281472[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField']"}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@type = 'XCUIElementTypeTextField']","44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'findElement'
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+[debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/element] with body: {"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField']"}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"ELEMENT":"95000000-0000-0000-0107-000000000000","element-6066-11e4-a52e-4f735466cecf":"95000000-0000-0000-0107-000000000000"},"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72"}
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"95000000-0000-0000-0107-000000000000","ELEMENT":"95000000-0000-0000-0107-000000000000"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/element [39m[32m200[39m [90m434 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeSecureTextField']"}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@type = 'XCUIElementTypeSecureTextField']","44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'findElement'
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+[debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/element] with body: {"using":"xpath","value":"//*[@type = 'XCUIElementTypeSecureTextField']"}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"ELEMENT":"98000000-0000-0000-0107-000000000000","element-6066-11e4-a52e-4f735466cecf":"98000000-0000-0000-0107-000000000000"},"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72"}
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"98000000-0000-0000-0107-000000000000","ELEMENT":"98000000-0000-0000-0107-000000000000"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/element [39m[32m200[39m [90m898 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.execute() with args: ["mobile: source",[{"format":"xml","excludedAttributes":"visible"}],"44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'execute'
+[debug] [35m[WD Proxy][39m Matched '/source?format=xml&excluded_attributes=visible' to command name 'getPageSource'
+[debug] [35m[WD Proxy][39m Proxying [GET /source?format=xml&excluded_attributes=visible] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/source?format=xml&excluded_attributes=visible] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Ride\" label=\"Ride\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\"/>\n    </XCUIElementTypeOther>\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"1\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeNavigationBar type=\"XCUIElementTypeNavigationBar\" name=\"SIGN IN\" enabled=\"t...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.execute() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"Ride\" label=\"Ride\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\"/>\n    </XCUIElementTypeOther>\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"1\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" x=\"0\" y=\"0\" width=\"414\" height=\"896\" index=\"0\">\n        <XCUIElementTypeNavigationBar type=\"XCUIElementTypeNavigationBar\" name=\"SIGN IN\" enabled=\"true\" x=\...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/execute/sync [39m[32m200[39m [90m628 ms - 17280[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.getScreenshot() with args: ["44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAAS3ZD/CCRwAAQABJREFUeAHsnQecVdW1xi9Dt3eNHbvS\r\nhg4qoNgQLHSGzvSCEIwlGhu2p09jjcZoNInJM9HEjl2jxhYLZQCxxMSSZl6KMS8v\r\nz8TG+5/zwcrh3pmhJwx8+zce99l77bXX/t9z7/7Yp+VyTiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZ...
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAzwAAAcACAIAAACaY9F8AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAADPKADAAQAAAABAAAHAAAAAAAYjVEBAAAAHGlET1QAAAACAAAAAAAA\r\nA4AAAAAoAAADgAAAA4AAAS3ZD/CCRwAAQABJREFUeAHsnQecVdW1xi9Dt3eNHbvS\r\nhg4qoNgQLHSGzvSCEIwlGhu2p09jjcZoNInJM9HEjl2jxhYLZQCxxMSSZl6KMS8v\r\nz8TG+5/zwcrh3pmhJwx8+zce99l77bXX/t9z7/7Yp+VyTiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\nAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZgAiZg\r\n...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/screenshot [39m[32m200[39m [90m63 ms - 135660[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField']"}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@type = 'XCUIElementTypeTextField']","44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[XCUITest][39m Executing command 'findElement'
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [35m[BaseDriver][39m Waiting up to 60000 ms for condition
+[debug] [35m[WD Proxy][39m Matched '/element' to command name 'findElement'
+[debug] [35m[WD Proxy][39m Proxying [POST /element] to [POST http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72/element] with body: {"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField']"}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"ELEMENT":"95000000-0000-0000-0107-000000000000","element-6066-11e4-a52e-4f735466cecf":"95000000-0000-0000-0107-000000000000"},"sessionId":"CEFE93E2-69A5-455D-8CC6-D69DF87B8D72"}
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"95000000-0000-0000-0107-000000000000","ELEMENT":"95000000-0000-0000-0107-000000000000"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f/element [39m[32m200[39m [90m808 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (44e75135)][39m Calling AppiumDriver.deleteSession() with args: ["44e75135-1e97-4b4f-8619-ccd87519027f"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1615316388037 (11:59:48 GMT-0700 (Mountain Standard Time))
+[35m[Appium][39m Removing session 44e75135-1e97-4b4f-8619-ccd87519027f from our master session list
+[debug] [35m[WD Proxy][39m Matched '/session/44e75135-1e97-4b4f-8619-ccd87519027f' to command name 'deleteSession'
+[debug] [35m[WD Proxy][39m Proxying [DELETE /session/44e75135-1e97-4b4f-8619-ccd87519027f] to [DELETE http://127.0.0.1:53892/session/CEFE93E2-69A5-455D-8CC6-D69DF87B8D72] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":null,"sessionId":null}
+[35m[WebDriverAgent][39m Shutting down sub-processes
+[35m[WebDriverAgent][39m Shutting down 'xcodebuild' process (pid '42679')
+[35m[WebDriverAgent][39m Sending 'SIGTERM'...
+[35m[DevCon Factory][39m Releasing connections for 00008020-001578C92232002E device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["00008020-001578C92232002E:53892"]
+[35m[DevCon Factory][39m Releasing the listener for '00008020-001578C92232002E:53892'
+[debug] [35m[iProxy@00008020:53892][39m Closing the connection
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[35m[iProxy@00008020:53892][39m The connection has been closed
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1615316389187 (11:59:49 GMT-0700 (Mountain Standard Time))
+[debug] [35m[W3C (44e75135)][39m Received response: null
+[debug] [35m[W3C (44e75135)][39m But deleting session, so not returning
+[debug] [35m[W3C (44e75135)][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/44e75135-1e97-4b4f-8619-ccd87519027f [39m[32m200[39m [90m1152 ms - 14[39m
+[35m[HTTP][39m [90m[39m
